@@ -1,0 +1,112 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --tertiary-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --tertiary-bg-color: #f5f4fa;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.logo {
+  color: #000000;
+  text-decoration: none;
+}
+
+.site-nav {
+  list-style: none;
+}
+
+.site-nav-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contact {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-text {
+  color: var(--tertiary-text-color);
+}
+
+.hero-btn {
+  color: var(--tertiary-text-color);
+  background-color: var(--accent-color);
+  border: none;
+}
+
+.benefits-list {
+  list-style: none;
+}
+
+.benefits-description {
+  color: var(--secondary-text-color);
+}
+
+.work-list {
+  list-style: none;
+}
+
+.team {
+  background-color: var(--tertiary-bg-color);
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-position {
+  color: var(--secondary-text-color);
+}
+
+.filter-btns {
+  list-style: none;
+}
+
+.filter-btn {
+  background-color: var(--tertiary-bg-color);
+  border: none;
+}
+
+.projects-list {
+  list-style: none;
+}
+
+.project-type {
+  color: var(--secondary-text-color);
+}
+
+.footer {
+  color: var(--tertiary-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.logo-footer {
+  color: var(--tertiary-text-color);
+  text-decoration: none;
+}
+
+.logo-accent,
+.logo-footer-accent {
+  color: var(--accent-color);
+}
+
+.contact-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
