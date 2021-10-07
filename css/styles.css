@@ -182,6 +182,20 @@ body {
   line-height: 1.9;
 }
 
+.features-title,
+.projects-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .footer {
   color: var(--tertiary-text-color);
   background-color: var(--secondary-bg-color);
