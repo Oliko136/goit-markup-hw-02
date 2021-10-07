@@ -27,6 +27,15 @@ body {
   text-decoration: none;
 }
 
+.site-nav-link.current {
+  color: var(--accent-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+
 .contacts-list {
   list-style: none;
 }
@@ -34,6 +43,11 @@ body {
 .contact {
   color: var(--secondary-text-color);
   text-decoration: none;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
 }
 
 .hero {
@@ -48,6 +62,12 @@ body {
   color: var(--tertiary-text-color);
   background-color: var(--accent-color);
   border: none;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
 }
 
 .benefits-list {
@@ -81,6 +101,13 @@ body {
 .filter-btn {
   background-color: var(--tertiary-bg-color);
   border: none;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--tertiary-text-color);
+  background-color: var(--accent-color);
 }
 
 .projects-list {
@@ -109,4 +136,9 @@ body {
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--accent-color);
 }
