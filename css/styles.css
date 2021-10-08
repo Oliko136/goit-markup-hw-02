@@ -142,17 +142,17 @@ body {
 
 .filter-btns {
   list-style: none;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
 }
 
 .filter-btn {
   background-color: var(--tertiary-bg-color);
   border: none;
   cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
 }
 
 .filter-btn:hover,
